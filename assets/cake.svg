@@ -1,0 +1,119 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="500" viewBox="0 0 600 500" fill="none" role="img" aria-label="A luxurious chocolate birthday cake with ivory cream, cherries and gold leaf">
+<defs>
+  <linearGradient id="ganache" x1="121" y1="253" x2="487" y2="381" gradientUnits="userSpaceOnUse"><stop stop-color="#8F5840"/><stop offset=".22" stop-color="#663B2B"/><stop offset=".49" stop-color="#46271D"/><stop offset=".78" stop-color="#2A1914"/><stop offset="1" stop-color="#170F0C"/></linearGradient>
+  <linearGradient id="velvet" x1="117" y1="342" x2="488" y2="400" gradientUnits="userSpaceOnUse"><stop stop-color="#71452D"/><stop offset=".29" stop-color="#4E2C1C"/><stop offset=".72" stop-color="#2D1A12"/><stop offset="1" stop-color="#1A100B"/></linearGradient>
+  <radialGradient id="topCream" cx="0" cy="0" r="1" gradientTransform="translate(225 193) rotate(12) scale(284 102)" gradientUnits="userSpaceOnUse"><stop stop-color="#FFFFF2"/><stop offset=".45" stop-color="#F9EAC8"/><stop offset=".8" stop-color="#E6CDA0"/><stop offset="1" stop-color="#C6A473"/></radialGradient>
+  <linearGradient id="creamDrip" x1="183" y1="235" x2="343" y2="349" gradientUnits="userSpaceOnUse"><stop stop-color="#FFF7DF"/><stop offset=".4" stop-color="#F5E2BA"/><stop offset=".77" stop-color="#D8B889"/><stop offset="1" stop-color="#B88F5D"/></linearGradient>
+  <linearGradient id="filling" x1="133" y1="309" x2="426" y2="360" gradientUnits="userSpaceOnUse"><stop stop-color="#D8B484"/><stop offset=".42" stop-color="#B38A58"/><stop offset=".84" stop-color="#87613C"/><stop offset="1" stop-color="#67452B"/></linearGradient>
+  <linearGradient id="swirlBase" x1="-23" y1="-33" x2="17" y2="17" gradientUnits="userSpaceOnUse"><stop stop-color="#FFFEEC"/><stop offset=".36" stop-color="#F5E5BE"/><stop offset=".68" stop-color="#D0AC77"/><stop offset="1" stop-color="#92683C"/></linearGradient>
+  <linearGradient id="swirlRibbon" x1="-18" y1="-19" x2="18" y2="5" gradientUnits="userSpaceOnUse"><stop stop-color="#FFFFF3"/><stop offset=".43" stop-color="#FFF3D5"/><stop offset=".8" stop-color="#DBC094"/><stop offset="1" stop-color="#B08B59"/></linearGradient>
+  <radialGradient id="cherryRed" cx="0" cy="0" r="1" gradientTransform="translate(-7 -9) rotate(53) scale(29 25)" gradientUnits="userSpaceOnUse"><stop stop-color="#FFB278"/><stop offset=".18" stop-color="#F46A46"/><stop offset=".43" stop-color="#CD3429"/><stop offset=".75" stop-color="#8B171D"/><stop offset="1" stop-color="#390D16"/></radialGradient>
+  <linearGradient id="gold" x1="87" y1="375" x2="507" y2="430" gradientUnits="userSpaceOnUse"><stop stop-color="#916435"/><stop offset=".2" stop-color="#E6C681"/><stop offset=".35" stop-color="#FFF0BA"/><stop offset=".5" stop-color="#BA8A43"/><stop offset=".7" stop-color="#DFC086"/><stop offset=".93" stop-color="#78512B"/><stop offset="1" stop-color="#C2A16B"/></linearGradient>
+  <linearGradient id="goldLeaf" x1="0" y1="0" x2="15" y2="15" gradientUnits="userSpaceOnUse"><stop stop-color="#FFF5BA"/><stop offset=".37" stop-color="#E9BA5D"/><stop offset=".52" stop-color="#A9762D"/><stop offset=".7" stop-color="#FFE6A1"/><stop offset="1" stop-color="#A8752D"/></linearGradient>
+  <linearGradient id="plateSide" x1="300" y1="388" x2="300" y2="442" gradientUnits="userSpaceOnUse"><stop stop-color="#1B3029"/><stop offset=".35" stop-color="#0C1B16"/><stop offset="1" stop-color="#040D09"/></linearGradient>
+  <radialGradient id="plateTop" cx="0" cy="0" r="1" gradientTransform="translate(216 377) rotate(5) scale(320 67)" gradientUnits="userSpaceOnUse"><stop stop-color="#405445"/><stop offset=".49" stop-color="#213A2B"/><stop offset="1" stop-color="#071A11"/></radialGradient>
+  <linearGradient id="plaque" x1="253" y1="341" x2="345" y2="389" gradientUnits="userSpaceOnUse"><stop stop-color="#6A4430"/><stop offset=".4" stop-color="#38231B"/><stop offset="1" stop-color="#160F0D"/></linearGradient>
+  <filter id="ambient" x="29" y="364" width="542" height="124" filterUnits="userSpaceOnUse"><feGaussianBlur stdDeviation="15"/></filter>
+  <filter id="swirlShadow" x="-40" y="-46" width="84" height="84" filterUnits="userSpaceOnUse"><feDropShadow dx="3" dy="6" stdDeviation="2.4" flood-color="#5A311A" flood-opacity=".48"/></filter>
+  <filter id="berryShadow" x="-26" y="-47" width="62" height="79" filterUnits="userSpaceOnUse"><feDropShadow dx="3" dy="4" stdDeviation="2" flood-color="#4B2418" flood-opacity=".45"/></filter>
+  <clipPath id="cakeBody"><path d="M94 224H506V338C506 370 414 397 300 397C186 397 94 370 94 338Z"/></clipPath>
+  <g id="rosette" filter="url(#swirlShadow)">
+    <ellipse cx="2" cy="11" rx="29" ry="12" fill="#8E683F" opacity=".5"/>
+    <path d="M-28 9C-34 1-29-7-20-11C-23-19-13-25-6-26C-9-32-4-38 3-39C-2-29 13-29 13-21C22-19 25-13 21-7C31-4 34 5 27 12C17 23-18 24-28 9Z" fill="url(#swirlBase)"/>
+    <path d="M-27 2C-21 12 4 18 25 6C28 9 25 15 20 17C4 25-20 20-27 11C-30 7-29 3-27 2Z" fill="url(#swirlRibbon)"/>
+    <path d="M-21-10C-15-1 5 5 21-6C24-1 18 5 12 7C-3 12-20 5-24-2C-26-5-23-9-21-10Z" fill="url(#swirlRibbon)"/>
+    <path d="M-11-25C-7-19 5-17 13-22C18-19 16-15 11-12C1-8-11-14-15-18C-16-21-14-24-11-25Z" fill="url(#swirlRibbon)"/>
+    <path d="M-22 1C-13 8 3 12 18 6M-15-13C-8-7 2-5 12-9M-5-27C-1-23 5-22 9-24" stroke="#FFFEEB" stroke-width="2.5" stroke-linecap="round" opacity=".85"/>
+    <path d="M-27 8C-22 15-10 19 2 19M-22-3C-19 1-15 3-11 4" stroke="#FFF3CA" stroke-width="1.4" stroke-linecap="round"/>
+  </g>
+  <g id="cherry" filter="url(#berryShadow)">
+    <path d="M0-11C-10-20-24-11-21 2C-19 16-6 23 5 19C18 16 25 2 17-8C12-15 6-15 0-11Z" fill="url(#cherryRed)"/>
+    <path d="M-17-2C-17-8-12-12-6-11" stroke="#FFE2B4" stroke-width="3.5" stroke-linecap="round" opacity=".85"/>
+    <ellipse cx="-13" cy="-5" rx="2.4" ry="3.9" fill="#FFF4D2" transform="rotate(28 -13 -5)" opacity=".9"/>
+    <path d="M6 15C12 12 16 7 16 2" stroke="#FC7352" stroke-width="1.6" stroke-linecap="round" opacity=".45"/>
+    <ellipse cy="-11" rx="4.7" ry="2.3" fill="#681D1B"/>
+    <path d="M0-10C-4-23 1-32 10-39" stroke="#453D24" stroke-width="2.8" stroke-linecap="round"/>
+    <path d="M0-11C-2-24 2-31 9-36" stroke="#B09D60" stroke-width=".9" stroke-linecap="round"/>
+    <path d="M4-30C11-36 19-32 22-25C14-21 7-24 4-30Z" fill="#34482C"/>
+    <path d="M6-29L18-26" stroke="#7A8850" stroke-width=".8"/>
+  </g>
+  <g id="leaf"><path d="M0 2L5 0L8 4L14 3L12 8L15 12L9 14L5 11L1 13L2 7Z" fill="url(#goldLeaf)"/><path d="M2 4L8 5L6 11M8 5L12 8" stroke="#FFE8A3" stroke-width=".6" opacity=".75"/></g>
+</defs>
+<!-- The ambient pool remains translucent on a midnight background. -->
+<ellipse cx="301" cy="425" rx="230" ry="24" fill="#D58C3E" opacity=".14" filter="url(#ambient)"/>
+<ellipse cx="300" cy="416" rx="221" ry="21" fill="#030805" opacity=".7"/>
+<!-- Porcelain serving plate: shallow profile, hand-gilded rim. -->
+<path d="M56 397C56 374 165 357 300 357C435 357 544 374 544 397V404C544 425 435 443 300 443C165 443 56 425 56 404Z" fill="url(#plateSide)"/>
+<ellipse cx="300" cy="397" rx="244" ry="40" fill="url(#plateTop)" stroke="url(#gold)" stroke-width="2.3"/>
+<ellipse cx="300" cy="396" rx="224" ry="30" stroke="#8F8F58" stroke-opacity=".3"/>
+<path d="M64 408C99 427 208 440 311 439C416 437 501 424 536 409" stroke="url(#gold)" stroke-width="1.25" opacity=".8"/>
+<path d="M77 393C107 377 164 370 208 369" stroke="#C7C49B" stroke-width="1.4" opacity=".3" stroke-linecap="round"/>
+<ellipse cx="302" cy="389" rx="209" ry="28" fill="#010A05" opacity=".75"/>
+<!-- Two layers of chocolate cake. -->
+<path d="M94 224H506V338C506 370 414 397 300 397C186 397 94 370 94 338Z" fill="url(#ganache)"/>
+<path d="M94 315C121 344 207 367 300 367C393 367 480 344 506 315V338C506 370 414 397 300 397C186 397 94 370 94 338Z" fill="url(#velvet)"/>
+<path d="M95 302C120 331 205 350 300 350C395 350 480 331 505 302V316C480 347 393 369 300 369C207 369 120 347 95 316Z" fill="url(#filling)"/>
+<path d="M95 304C131 336 211 355 300 355C389 355 471 336 505 304" stroke="#EBC993" stroke-width="2" opacity=".65"/>
+<path d="M96 317C125 347 210 369 300 369C392 369 476 347 504 317" stroke="#1C110B" stroke-width="4" opacity=".7"/>
+<g clip-path="url(#cakeBody)" opacity=".36" stroke-linecap="round">
+  <path d="M89 279C133 318 218 337 300 337C385 337 474 318 511 279M90 288C134 326 220 345 300 345C381 345 471 326 509 288M90 338C134 373 219 390 300 390C384 390 474 372 510 338M93 331C135 365 217 382 300 382C382 382 471 365 507 331" stroke="#B78658" stroke-width="1.3"/>
+  <path d="M101 270L105 290M119 280L123 301M141 291L144 313M167 301L170 322M198 311L200 331M232 318L233 337M267 322V340M302 323V342M337 322L336 340M373 317L371 335M405 309L403 328M436 300L432 320M461 289L457 309M482 276L478 297M499 262L495 282" stroke="#D29C66" stroke-width="1.4"/>
+  <path d="M105 335L109 348M127 347L130 360M152 356L156 371M183 367L186 380M218 376L220 388M256 382L257 395M296 384V397M335 382L334 395M372 376L370 390M409 367L406 381M442 355L438 370M472 341L467 356M493 328L490 343" stroke="#D39A5F" stroke-width="1.1"/>
+</g>
+<g fill="#C09058" opacity=".38">
+  <circle cx="130" cy="319" r="1.4"/><circle cx="156" cy="327" r="1"/><circle cx="179" cy="334" r="1.5"/><circle cx="206" cy="341" r="1.2"/><circle cx="240" cy="346" r="1.1"/><circle cx="359" cy="343" r="1.1"/><circle cx="389" cy="337" r="1.4"/><circle cx="420" cy="330" r="1.2"/><circle cx="453" cy="319" r="1.1"/><circle cx="476" cy="311" r="1.3"/>
+  <circle cx="141" cy="357" r="1.1"/><circle cx="162" cy="370" r="1.7"/><circle cx="195" cy="374" r="1.2"/><circle cx="226" cy="386" r="1.4"/><circle cx="269" cy="389" r="1.1"/><circle cx="325" cy="393" r="1.6"/><circle cx="364" cy="386" r="1.2"/><circle cx="397" cy="378" r="1.6"/><circle cx="431" cy="367" r="1.1"/><circle cx="461" cy="354" r="1.4"/>
+</g>
+<!-- Thick ivory ganache: a raised rim, deep scallops, and wet highlights. -->
+<path d="M90 224C90 187 184 158 300 158C416 158 510 187 510 224V244C510 255 503 264 494 271L493 296C492 309 479 308 476 298L473 285L454 295L451 310C449 320 436 319 434 309L432 304L410 312L407 332C405 347 389 347 387 332L385 318L359 323L355 341C352 352 339 348 338 338L337 326L309 328L305 351C303 365 286 367 282 352L279 327L251 325L248 337C246 348 232 347 230 336L228 321L207 316L204 332C202 344 187 343 185 330L182 309L162 302L159 314C156 325 143 322 142 312L140 291L122 280L120 289C119 299 106 297 105 287L103 266C94 257 90 250 90 244Z" fill="#120D08" opacity=".4" transform="translate(2 5)"/>
+<path d="M90 224C90 187 184 158 300 158C416 158 510 187 510 224V244C510 255 503 264 494 271L493 296C492 309 479 308 476 298L473 285L454 295L451 310C449 320 436 319 434 309L432 304L410 312L407 332C405 347 389 347 387 332L385 318L359 323L355 341C352 352 339 348 338 338L337 326L309 328L305 351C303 365 286 367 282 352L279 327L251 325L248 337C246 348 232 347 230 336L228 321L207 316L204 332C202 344 187 343 185 330L182 309L162 302L159 314C156 325 143 322 142 312L140 291L122 280L120 289C119 299 106 297 105 287L103 266C94 257 90 250 90 244Z" fill="url(#creamDrip)"/>
+<ellipse cx="300" cy="222" rx="210" ry="66" fill="url(#topCream)"/>
+<ellipse cx="300" cy="220" rx="199" ry="58" stroke="#FFF8DF" stroke-opacity=".47" stroke-width="2"/>
+<path d="M98 231C112 263 193 290 289 292C389 295 472 270 502 237" stroke="#FFF4D5" stroke-width="5" stroke-linecap="round" opacity=".6"/>
+<path d="M113 257C133 274 167 286 201 293M220 299C238 303 258 305 271 305" stroke="#FFFFEB" stroke-width="3.5" stroke-linecap="round" opacity=".85"/>
+<path d="M291 329L292 350M196 317L196 329M240 325V337M397 320L396 332M150 302L151 313M484 282L484 297" stroke="#FFF3CD" stroke-width="3.5" stroke-linecap="round" opacity=".65"/>
+<path d="M299 340V350M402 330V335M202 326V331" stroke="#C19B68" stroke-width="2" stroke-linecap="round" opacity=".6"/>
+<!-- Hand-piped cream crown; center left open for the animated candles. -->
+<use href="#rosette" transform="translate(227 183) scale(.7 .6)"/>
+<use href="#rosette" transform="translate(374 183) scale(.7 .6)"/>
+<use href="#rosette" transform="translate(158 202) scale(.82 .7)"/>
+<use href="#rosette" transform="translate(442 202) scale(.82 .7)"/>
+<use href="#rosette" transform="translate(121 232) scale(.9 .82)"/>
+<use href="#rosette" transform="translate(480 232) scale(.9 .82)"/>
+<use href="#rosette" transform="translate(151 265) scale(.95 .9)"/>
+<use href="#rosette" transform="translate(451 265) scale(.95 .9)"/>
+<use href="#rosette" transform="translate(219 286) scale(1.02 .96)"/>
+<use href="#rosette" transform="translate(382 286) scale(1.02 .96)"/>
+<use href="#rosette" transform="translate(301 294) scale(1.04 1)"/>
+<!-- Fresh cherries: small bright reflections and fine curved stems. -->
+<use href="#cherry" transform="translate(157 179) scale(.63)"/>
+<use href="#cherry" transform="translate(442 180) scale(.63)"/>
+<use href="#cherry" transform="translate(119 205) scale(.7) rotate(-10)"/>
+<use href="#cherry" transform="translate(482 207) scale(.7) rotate(12)"/>
+<use href="#cherry" transform="translate(215 252) scale(.81) rotate(-8)"/>
+<use href="#cherry" transform="translate(386 252) scale(.81) rotate(10)"/>
+<!-- Broken shards of edible gold; each reflects differently. -->
+<use href="#leaf" transform="translate(186 220) rotate(-15) scale(.65)"/>
+<use href="#leaf" transform="translate(405 222) rotate(32) scale(.6)"/>
+<use href="#leaf" transform="translate(268 271) rotate(-25) scale(.5)"/>
+<use href="#leaf" transform="translate(330 180) rotate(18) scale(.48)"/>
+<use href="#leaf" transform="translate(125 300) rotate(20) scale(.4)"/>
+<use href="#leaf" transform="translate(426 341) rotate(-16) scale(.55)"/>
+<use href="#leaf" transform="translate(174 355) rotate(24) scale(.45)"/>
+<path d="M256 190L260 189L259 192Z M354 260L359 259L357 262Z M201 239L205 240L203 243Z M397 196L400 194L402 197Z M460 289L464 288L462 291Z" fill="#F8D894"/>
+<!-- Thin chocolate dedication plaque, cut by hand and edged in gold. -->
+<g transform="rotate(-5 300 367)">
+  <path d="M245 346L351 346L357 352L357 390L251 390L245 384Z" fill="#0E0B08" opacity=".5" transform="translate(2 3)"/>
+  <path d="M245 342H350L355 347V385H250L245 380Z" fill="#21150F"/>
+  <path d="M245 342H350V380H245Z" fill="url(#plaque)" stroke="#B08A4F" stroke-width="1"/>
+  <path d="M249 346H346V376H249Z" stroke="#D8B676" stroke-width=".7" opacity=".65"/>
+  <path d="M250 347H342" stroke="#F5D39A" stroke-width=".7" opacity=".5"/>
+  <text x="298" y="368" text-anchor="middle" fill="#E9CB8F" font-size="19" font-family="Georgia, 'Times New Roman', serif" letter-spacing="5">DAD</text>
+  <path d="M251 380L255 385H355L350 380Z" fill="#493020"/>
+</g>
+<!-- A few fallen gold crumbs catch the light on the plate. -->
+<use href="#leaf" transform="translate(142 407) scale(.33) rotate(10)"/>
+<use href="#leaf" transform="translate(448 410) scale(.3) rotate(-20)"/>
+<circle cx="161" cy="413" r=".9" fill="#EBCD89"/>
+<circle cx="435" cy="417" r="1" fill="#D4AC62"/>
+</svg>

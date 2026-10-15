@@ -1,0 +1,42 @@
+:root{color-scheme:dark;background:#071a16}
+*{box-sizing:border-box}
+html,body{margin:0;width:100%;height:100%;overflow:hidden}
+body{background:#071a16;font-family:system-ui,'Malgun Gothic',sans-serif}
+.ambience{position:fixed;inset:0;overflow:hidden;pointer-events:none;background:radial-gradient(ellipse at 50% 48%,#243e2c 0%,#102a22 37%,#081c18 64%,#04110f 100%)}
+.ambience:after{content:'';position:absolute;inset:0;background:radial-gradient(ellipse at 50% 45%,transparent 35%,#0006 100%)}
+.warmth{position:absolute;inset:-20%;background:radial-gradient(ellipse at 50% 44%,#cf943f38 0%,#b7792618 30%,transparent 66%);opacity:.3;transition:opacity 1.8s ease}
+.spotlight{position:absolute;left:50%;top:-55%;width:120%;height:130%;transform:translateX(-50%);background:conic-gradient(from 160deg at 50% 0%,transparent 0deg,#f6d28c08 8deg,#f6d28c16 20deg,#f6d28c08 33deg,transparent 40deg);filter:blur(25px);opacity:.65}
+.floor-light{position:absolute;left:50%;top:63%;width:min(900px,115vw);height:min(190px,22vh);transform:translate(-50%,-50%);background:radial-gradient(ellipse,#d9ac5e19 0%,#7799700d 40%,transparent 72%);filter:blur(20px);transition:opacity 1s;opacity:.7}
+.bokeh{position:absolute;inset:0;opacity:.45;transition:opacity 1.5s}
+.bokeh i{position:absolute;display:block;left:var(--x);top:var(--y);width:var(--size,3px);height:var(--size,3px);border-radius:50%;background:#e9c884;box-shadow:0 0 12px #ffd68955;opacity:.3;animation:float 9s ease-in-out infinite alternate;animation-delay:var(--delay,0s)}
+.bokeh i:nth-child(1){--x:19%;--y:32%;--delay:-4s}.bokeh i:nth-child(2){--x:78%;--y:42%;--size:4px;--delay:-2s}.bokeh i:nth-child(3){--x:27%;--y:71%;--size:2px;--delay:-7s}.bokeh i:nth-child(4){--x:72%;--y:67%;--delay:-1s}.bokeh i:nth-child(5){--x:39%;--y:19%;--size:2px;--delay:-6s}.bokeh i:nth-child(6){--x:64%;--y:25%;--delay:-3s}.bokeh i:nth-child(7){--x:10%;--y:57%;--size:2px;--delay:-8s}.bokeh i:nth-child(8){--x:88%;--y:73%;--size:2px;--delay:-5s}
+main{position:relative;z-index:2;min-height:100%;min-height:100svh;display:grid;place-items:center;perspective:1200px}
+.cake-button{position:relative;display:block;width:min(730px,98vw,112svh);aspect-ratio:6/5;border:0;padding:0;background:transparent;cursor:pointer;border-radius:45%;transform:translateY(-7%);-webkit-tap-highlight-color:transparent;touch-action:manipulation;user-select:none;perspective:1000px}
+.cake-button:focus{outline:none}.cake-button:focus-visible{outline:1px dashed #f5dca180;outline-offset:2px}
+.cake-motion{position:relative;display:block;width:100%;height:100%;transform:rotateX(var(--rx,0deg)) rotateY(var(--ry,0deg));transform-style:preserve-3d;transition:transform .45s cubic-bezier(.2,.8,.2,1)}
+.cake{position:relative;display:block;width:100%;height:100%;transition:filter .7s,transform .25s;filter:drop-shadow(0 18px 20px #0004)}
+.cake img{position:relative;z-index:2;display:block;width:100%;height:auto;pointer-events:none;filter:saturate(.96)}
+.cake-button:hover .cake{filter:drop-shadow(0 14px 24px #0004) brightness(1.06)}
+.cake-button.pressed .cake{transform:scale(.975) translateY(3px)}
+.candle-halo{position:absolute;z-index:1;top:4%;left:23%;width:54%;height:57%;border-radius:50%;background:radial-gradient(ellipse,#f5ce8833,transparent 68%);filter:blur(12px);opacity:.8;transition:opacity .4s}
+.candles{position:absolute;z-index:3;top:17%;left:39%;width:23%;height:26%;pointer-events:none}
+.candle{position:absolute;bottom:0;width:8.5%;height:49%;border-radius:40% 40% 3px 3px / 3px 3px 3px 3px;background:linear-gradient(90deg,#ad8744,#f7e9b5 34%,#e4cf91 65%,#9f7e3c);box-shadow:inset -2px 0 2px #4a371a55,2px 4px 4px #382a1c30}
+.candle:after{content:'';position:absolute;inset:0;border-radius:inherit;background:repeating-linear-gradient(34deg,transparent 0px,transparent 11px,#a47d3a 12px,#e7bd66 13px,#b28846 14px,transparent 15px);opacity:.9}
+.candle-one{left:0;bottom:6%;height:48%}.candle-two{left:45%;bottom:12%;height:66%}.candle-three{right:0;height:48%}
+.wick{position:absolute;top:-6px;left:45%;width:2px;height:8px;background:#573819}
+.flame{position:absolute;width:135%;height:31px;border-radius:80% 20% 55% 45%;left:-14%;top:-36px;background:radial-gradient(ellipse at 50% 90%,#fffef3 0%,#fff9c9 23%,#ffdc7b 43%,#ee9e35 68%,#d5661b 95%);transform-origin:50% 100%;box-shadow:0 0 7px #ffe99ab0,0 0 24px 8px #ffbc5050,0 0 60px 20px #eeb75c12;animation:flicker 1.8s ease-in-out infinite alternate;transition:opacity .18s}
+.flame>i{position:absolute;bottom:1px;left:36%;width:32%;height:25%;border-radius:60% 60% 40% 40%;background:#b7e1f4;opacity:.7}
+.candle-two .flame{animation-delay:-.8s}.candle-three .flame{animation-delay:-1.3s}
+.smoke{position:absolute;left:28%;top:-11px;width:6px;height:20px;opacity:0;border-radius:50%;background:#ddc8a650;filter:blur(2px)}
+.celebrated .flame{opacity:0;animation:none}.celebrated .candle-halo{opacity:0}.popping .smoke{animation:smoke 1.6s ease-out both}.popping .cake{animation:celebrate-pop .85s cubic-bezier(.2,.75,.2,1) both}
+.party .warmth{opacity:1}.party .floor-light{opacity:1}.party .bokeh{opacity:.85}.party .cake{filter:drop-shadow(0 20px 24px #0004) brightness(1.08)}
+#fireworks,#confetti{position:fixed;inset:0;width:100%;height:100%;pointer-events:none}#fireworks{z-index:1}#confetti{z-index:3}
+.screen-reader-only{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip-path:inset(50%);white-space:nowrap;border:0}
+.audio-error{position:fixed;bottom:max(24px,env(safe-area-inset-bottom));margin:0 20px;color:#d3c9ad;font-size:12px;text-align:center;background:#081c18d9;border:1px solid #e3c47725;border-radius:24px;padding:12px 18px}
+@keyframes flicker{0%{transform:rotate(-4deg) scale(.96,1.03);filter:brightness(1)}50%{transform:rotate(3deg) scale(1,.96);filter:brightness(1.08)}100%{transform:rotate(6deg) scale(1.05,1);filter:brightness(1)}}
+@keyframes smoke{0%{opacity:.6;transform:translate(0,0) scale(.6)}70%{opacity:.25}100%{opacity:0;transform:translate(14px,-70px) scale(2.8)}}
+@keyframes celebrate-pop{0%{transform:scale(.96)}30%{transform:translateY(-12px) scale(1.035) rotate(-1deg)}65%{transform:translateY(2px) scale(.995) rotate(.5deg)}100%{transform:none}}
+@keyframes float{from{transform:translateY(7px);opacity:.15}to{transform:translateY(-13px);opacity:.55}}
+@media(max-width:480px){.flame{height:23px;top:-28px}.candle:after{background-size:100% 22px}.cake-button{width:103vw;max-width:100vw}.bokeh{opacity:.3}.floor-light{top:60%}}
+@media(max-height:480px) and (orientation:landscape){.cake-button{width:107svh}}
+@media(prefers-reduced-motion:reduce){*,*:before,*:after{animation:none!important;transition:none!important}.cake-motion,.cake-button.pressed .cake{transform:none!important}.bokeh i{opacity:.3}}
